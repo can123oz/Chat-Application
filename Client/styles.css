@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey !important;
+}
+label {
+    color: whitesmoke;
+}
+.container {
+    display: flex;
+}
+.hiddenUserName {
+    color: whitesmoke;
+}
+
+div {
+    border-radius: 7%;
+}
+
+input {
+    border-radius: 7%;
+}
+
+.chatScreen {
+    border: 2px solid grey;
+    width: 620px;
+    height: 650px;
+    margin: 30px auto;
+    background-color: grey;
+}
+
+.messageLimit {
+    height: 50px;
+    width: 490px;
+    max-height: 50px;
+    max-width: 490px;
+    margin: 10px auto;
+}
+.userDiv {
+    visibility: hidden;
+}
+
+.userList {
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+    width: 70px;
+    height: 150px;
+    margin: 20px auto;
+    margin-left: 5px;
+    padding: 10px;   
+}
+.userOnline {
+    color: red;
+}
+
+.messageHistory {
+    border: 12px solid antiquewhite;
+    background-color: antiquewhite;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.messageBox {
+    display: flex;
+}
+
+.messageItem {
+    border: 2px solid grey;
+    background-color: paleturquoise;
+    margin-bottom: 10px;
+    width: 60%;
+    max-width: 60%;
+}
+
+.senderSpan {
+    font-size: 12px !important;
+}
+
+.right {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.left {
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.left .messageItem {
+    background-color: coral !important;
+}

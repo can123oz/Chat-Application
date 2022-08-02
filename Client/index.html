@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Socket Chat</title>
+</head>
+<body>
+    <div class="chatScreen">
+        <div class="container">
+        <div class="messageHistory"></div>
+        <div class="userList"></div>
+        </div>
+        <div>
+            <label>User Name : </label><span class="hiddenUserName"></span>
+            <input type="text" class="userName"><button type="submit" class="userNameButton">Enter User Name</button>
+        </div>
+        
+        <div class="userDiv">
+            <label>Message : </label><br>
+            <textarea name="" class="messageLimit" id="message" cols="30" rows="10"></textarea>
+            <button type="submit" class="sendButton">Send</button>
+        </div>
+    </div>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"
+        integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k"
+        crossorigin="anonymous">
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>
